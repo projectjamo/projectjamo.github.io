@@ -7,8 +7,12 @@
     margin: 0;
     padding: 0;
 }
-bgdiv {
-    background-image: linear-gradient(to bottom right, aqua, pink)
+body {
+    background-image: linear-gradient(to bottom right, aqua, #e000e0);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 li, a {
     font-family: "Oswald", sans-serif;
@@ -25,3 +29,21 @@ header {
     padding: 30px 10%;
 
 }
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+    .nav__links li a {
+        transition: all 0.3s ease 0s;
+    }
