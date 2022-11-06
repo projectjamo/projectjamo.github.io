@@ -6,9 +6,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image:  linear-gradient(to bottom right, aqua, pink)
 }
-
+body {
+    background-image: linear-gradient(to bottom right, aqua, pink)
+}
 li, a {
     font-family: "Oswald", sans-serif;
     font-weight: 700;
