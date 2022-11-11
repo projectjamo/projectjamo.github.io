@@ -115,7 +115,7 @@ p {
 .imgimg {
     position: relative;
     transition: all 0.3s ease 0s;
-    width: 35vmin;
+    width: 30vmin;
 }
 
 .imgwrap:hover .imgimg {
